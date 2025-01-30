@@ -7,8 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Include="C:\Users\prep\Desktop\BankAccount.cs" Link="BankAccount.cs" />
-  </ItemGroup>
-
 </Project>
