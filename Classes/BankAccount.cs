@@ -1,18 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Classes
+﻿namespace Classes
 {
     public class BankAccount
     {
         private static int s_accountNumberSeed = 1234567890;
-        public BankAccount(string name, decimal initialBalance) 
-        { 
+        public BankAccount(string name, decimal initialBalance)
+        {
             this.Owner = name;
-            this.Balance = initialBalance;
             Number = s_accountNumberSeed.ToString();
             s_accountNumberSeed++;
         }
@@ -54,7 +47,7 @@ namespace Classes
             _allTransactions.Add(withdrawal);
         }
 
-        public void MakeWithDeposit(decimal amount, 
+        public void MakeWithDeposit(decimal amount,
             DateTime date, string note)
         {
 
